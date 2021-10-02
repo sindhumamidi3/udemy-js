@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-02T00:03:39.527Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="78yqAa043rb0Wz0Xv5A_" version="15.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-02T17:43:23.214Z" agent="5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="4HKDZNXj1WlfGiXxt7rA" version="15.4.1" type="github">
   <diagram id="2VDzocID4atmfYFC9NuJ" name="Page-1">
     <mxGraphModel dx="1113" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -28,7 +28,7 @@
         <mxCell id="yX39dWFXJKRczpGKgtbc-12" value="upload a comment" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="30" y="580" width="480" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="yX39dWFXJKRczpGKgtbc-13" value="getUserFeed(api_key, dataSize, userID)&lt;br&gt;&amp;nbsp;- return data, pageObject&lt;br&gt;&amp;nbsp;- page contains cursors, next and previous data api url&lt;br&gt;getComments(postId, size)&lt;br&gt;addComment(postId, userId, content)&lt;br&gt;addPost(api_key, postContent" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="1">
+        <mxCell id="yX39dWFXJKRczpGKgtbc-13" value="getUserFeed(api_key, dataSize, userID)&lt;br&gt;&amp;nbsp;- return data, pageObject&lt;br&gt;&amp;nbsp;- page contains cursors, next and previous data api url&lt;br&gt;getComments(postId, userId,size)&lt;br&gt;createComment(postId, userId, content)&lt;br&gt;createPost(api_key, postContent)" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="1">
           <mxGeometry x="571" y="40" width="190" height="190" as="geometry" />
         </mxCell>
         <mxCell id="yX39dWFXJKRczpGKgtbc-14" value="UI Layout" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
